@@ -1,0 +1,28 @@
+title: Cameron Ackerman
+email: cameron@cackerman.dev
+description: >-
+  Personal website for Cameron Ackerman
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cackerman.dev" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  camja014
+
+future: false
+show_drafts: false
+
+markdown: kramdown
+remote_theme: yous/whiteglass
+gems:
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+
+permalink: /:year/:month/:day/:title/
+paginate_path: /posts/:num/
+paginate: 5
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: category_archives
+  permalinks:
+    category: /categories/:name/
