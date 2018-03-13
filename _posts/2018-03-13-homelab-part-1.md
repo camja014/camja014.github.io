@@ -53,8 +53,8 @@ Sitting right on top of my media server are my two raspberry pi's, which are cur
 
 ### Network Diagram
 
-![Network Diagram](https://photos.app.goo.gl/KKornTtDTQdjhtt13)
+![Network Diagram]({{ "/assets/home_net_diagram-13032018.png" | absolute_url }})
 
 ### Eye-Candy
 
-![The Network Closet](https://photos.app.goo.gl/tAXxXkot9our2Te83)
+![The Network Closet]({{ "/assets/home_net_closet-13032018.jpg" | absolute_url }})
