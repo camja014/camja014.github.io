@@ -36,7 +36,7 @@ Sitting right on top of my media server are my two raspberry pi's, which are cur
     - Still, need to setup OpenVPN server for remote network access.
 - Router: Ubiquiti EdgeRouter Lite (aka blueberry)
     - eth0 (10.0.0.0/24) - The gateway interface, direct connection to the firewall
-    - eth1 (10.0.10.0/24) - The LAN interface, connected to a managed TP-Link switch. Currently, no VLANs are set up.
+    - eth1 (10.0.10.0/24) - The LAN interface, connected to a smart TP-Link switch. Currently, no VLANs are set up.
     - eth2 (10.0.20.0/24) - The WLAN, connected to my wireless access point which is set up in bridge mode.
 - Wireless AC: Ubiquiti Unifi AC Lite (aka space-frisbee)
 - Switch: TP-Link TL-SG108E 8-port managed switch
