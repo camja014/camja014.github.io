@@ -7,6 +7,8 @@ categories: homelab
 
 I was recently inspired by the [/r/homelab](https://www.reddit.com/r/homelab/) subreddit to revamp my home network and server setup. It has gone through a couple of iterations before this point, but it hasn't been deserving of the 'homelab' title until now.
 
+![The Network Closet]({{ "/assets/img/home_net_closet-13032018.jpg" | absolute_url }})
+
 ## The Long Version
 
 ### The Network
@@ -53,8 +55,5 @@ Sitting right on top of my media server are my two raspberry pi's, which are cur
 
 ### Network Diagram
 
-![Network Diagram]({{ "/assets/home_net_diagram-13032018.png" | absolute_url }})
+![Network Diagram]({{ "/assets/img/home_net_diagram-13032018.png" | absolute_url }})
 
-### Eye-Candy
-
-![The Network Closet]({{ "/assets/home_net_closet-13032018.jpg" | absolute_url }})
