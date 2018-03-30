@@ -33,6 +33,10 @@ I was recently inspired by the [/r/homelab](https://www.reddit.com/r/homelab/) s
 - Rasberry Pi 3 B+ (currently unnamed)
     - I'm thinking I will set this up as a vulnerability scanner and NIDS in the future.
 
+### Links
+
+[Ansible Files](https://github.com/camja014/ansible-playbooks)
+
 ### Network Diagram
 
 ![Network Diagram]({{ "/assets/img/home_net_diagram-13032018.png" | absolute_url }})
@@ -55,5 +59,5 @@ I chose Debian as my operating system of choice and decided to go with Docker fo
 
 Now Docker provides containerization of applications, but not the operating system. In order to get this same kind of modularity and flexibility with the OS itself, I decided to go with Proxmox, an open source hypervisor, and virtual environment management tool. Once I got it installed it was easy enough to spin up a new VM, install Debian, install a couple of packages, enable passwordless SSH access, and turn it into a template for future VM's to be created from. This also ensures that if I ever need to migrate my services and data to another machine I can move the entire VM instead of having to copy individual files.
 
-Sitting right on top of my media server are my two raspberry pi's, which are currently reserved for future projects. And that about concludes the general setup of my home network. Now here is the TL;DR version of it:
+Sitting right on top of my media server are my two raspberry pi's, which are currently reserved for future projects. And that about concludes the general setup of my home network.
 
